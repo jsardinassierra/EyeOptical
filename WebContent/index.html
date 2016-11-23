@@ -32,9 +32,14 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+
+
 </head>
 
 <body id="page-top">
+
+
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -119,17 +124,31 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-product-hunt text-primary sr-icons"></i>
                         <h3>Products</h3>
-						<ul class="nav nav-tabs">
-  							<li id="prod-frames" role="presentation" class="active text-muted"><a href="#prod-frames">Frames</a></li>
-							<li id="prod-lenses" role="presentation" class="text-muted"><a href="#prod-lenses">Lenses</a>
-							  <ul>
-  								<li>Transition</li>
-								<li>Bifocal</li>
-							  </ul>
+						<ul class="nav nav-tabs" role="tabslist">
+  							<li id="prod-frames" class="active text-muted"><a href="#frames" role="tab" data-toggle="tab">Frames</a>
+
+  							</li>
+							<li id="prod-lenses" class="text-muted"><a href="#lenses" role="tab" data-toggle="tab">Lenses</a>
+							  
 							</li>
-  							<li role="presentation" class="text-muted"><a href="#">Contacts</a></li>
+  							<li id="prod-contacts" class="text-muted"><a href="#contacts" role="tab" data-toggle="tab">Contacts</a></li>
 							  </ul>
                     </div>
+                    <div  class="tabcontent">
+    				<div role="tabpanel" class="tab-pane fade in active" id="frames"><ul>
+  							<li>Several brands							
+  							</li>
+  							</ul></div>
+    				<div role="tabpanel" class="tab-pane fade" id="lenses"><ul>
+  								<li>Transition</li>
+								<li>Bifocal</li>
+								<li>Progressive</li>
+								<li>Anti-glare</li>
+								<li>Hi-Index</li>
+							  </ul></div>
+    				<div role="tabpanel" class="tab-pane fade" id="contacts"></div>
+					</div>
+                    
                 </div>
               </div>
               <div class="row">
